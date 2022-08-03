@@ -48,10 +48,10 @@ spec:
             periodSeconds: 10
           resources:
             limits:
-              cpu: 100m
-              memory: 60Mi
+              cpu: 600m
+              memory: 70Mi
             requests:
-              cpu: 100m
-              memory: 40Mi
+              cpu: 300m
+              memory: 50Mi
       serviceAccountName: training-operator
       terminationGracePeriodSeconds: 10
