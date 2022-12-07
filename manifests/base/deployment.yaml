@@ -19,7 +19,7 @@ spec:
       containers:
         - command:
             - /manager
-          image: kaleidoai/kubeflow-training-operator
+          image: kaleidoai/kubeflow-training-operator:exit_fix
           name: training-operator
           ports:
             - containerPort: 8080
